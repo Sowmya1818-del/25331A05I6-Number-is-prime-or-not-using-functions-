@@ -9,6 +9,7 @@ int main()
         printf("%d is a Prime number.\n", number);
     else
         printf("%d is Not a Prime number.\n", number);
+        printf("\n25331A05I6");
     return 0;
 }
 int isPrime(int num) {
@@ -20,6 +21,5 @@ int isPrime(int num) {
         if (num % i == 0)
             return 0;
     }
-    printf("\n25331A05I6");
     return 1;
 }
